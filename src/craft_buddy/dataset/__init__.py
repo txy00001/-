@@ -1,0 +1,1 @@
+from .video_instruct_dataset import VideoInstructDataset

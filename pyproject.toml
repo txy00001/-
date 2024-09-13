@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CraftBuddy"
+version = "0.1.0"
+description = "A crafting CoPilot project based on Vision Language Models."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name="Tong Da", email="dtong@castmeta.cn"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "torch<=2.1.0",
+    "torchvision",
+    "transformers",
+    "gradio",
+    "decord",
+    "einops",
+    "peft",
+    "sentencepiece",
+    "openai",
+    "mmengine"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
