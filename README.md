@@ -10,7 +10,7 @@
 
 ## 数据集
 
-* [宜家家居组装](https://ikeaasm.github.io/)
+* [家居组装](https://ikeaasm.github.io/)
 
 ## 参考项目：
 
